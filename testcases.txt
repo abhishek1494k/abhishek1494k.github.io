@@ -34,17 +34,8 @@ Tech stack used : class="project-tech-stack"
 Link to GitHub repository : class="project-github-link"
 Deployed link or video link : class="project-deployed-link"
 
-
-7. There must be two buttons for resume. Clicking on them should open the resume in a new tab and download it as a PDF. 
-They must have the following IDs:
-For the button in the Resume section : id="resume-button-1"
-For the button in the Home/About section : id="resume-button-2"
-
-8. If you're using anchor elements for the resume buttons, they must have the following IDs:
-For the button in the Resume section : id="resume-link-1"
-For the button in the Home/About section : id="resume-link-2"
-
-9. For the GitHub calendar: class="react-activity-calendar" (the class is automatically included if you're using the react-github-calendar npm package)
+9. For the GitHub calendar:  
+(the class is automatically included if you're using the react-github-calendar npm package)
 
 10. The GitHub statistics images must have the following IDs:
 GitHub streak stats : id="github-streak-stats" [Link to refer : https://github-readme-streak-stats.herokuapp.com/demo/]
