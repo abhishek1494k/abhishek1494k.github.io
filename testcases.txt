@@ -20,12 +20,6 @@
  ✅ GitHub stats card is present - 1 mark
  ✅ Checked tech words in user about section - 1 mark
 
-Some Rules to follow:-
--Before writing a single line of code please read the problem statement very carefully.
--If you don't follow these rules you might not get any marks even if you do everything correctly.
--Have a look at the TestErrors on the logs page and Google them if any of your test cases have failed to figure out what might have gone wrong.
-
-
 5. Each project card in the Projects section should have class="project-card" and the following:
 Image of the project
 Title : class="project-title"
