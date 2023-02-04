@@ -25,28 +25,6 @@ Some Rules to follow:-
 -If you don't follow these rules you might not get any marks even if you do everything correctly.
 -Have a look at the TestErrors on the logs page and Google them if any of your test cases have failed to figure out what might have gone wrong.
 
-Problem Statement and Instructions:-
-1. Create a portfolio with the following components using the following attributes:
-Navbar : id="nav-menu"
-Home section : id="home"
-About section : id="about" class="about section"
-Skills section : id="skills"
-Projects section : id="projects"
-Contact section : id="contact"
-
-2. The elements within the navbar linked to the above 4 sections should have the following.
-Element linked to Home section : class="nav-link home"
-Element linked to About section : class="nav-link about"
-Element linked to Skills section : class="nav-link skills"
-Element linked to Projects section : class="nav-link projects"
-Element linked to Contact section : class="nav-link contact"
-Element linked to Resume : class="nav-link resume"
-
-3. The following must be present within elements with the respective IDs:
-
-Name : id="user-detail-name"
-Formal introduction : id="user-detail-intro"
-
 3. Contact elements must have the following IDs:
 
 GitHub profile link : id="contact-github"
