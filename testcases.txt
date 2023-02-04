@@ -25,7 +25,7 @@ Some Rules to follow:-
 -If you don't follow these rules you might not get any marks even if you do everything correctly.
 -Have a look at the TestErrors on the logs page and Google them if any of your test cases have failed to figure out what might have gone wrong.
 
-4. The image linking your professional photo must have class="home-img"
+
 5. Each project card in the Projects section should have class="project-card" and the following:
 Image of the project
 Title : class="project-title"
@@ -34,9 +34,6 @@ Tech stack used : class="project-tech-stack"
 Link to GitHub repository : class="project-github-link"
 Deployed link or video link : class="project-deployed-link"
 
-6. Each skills card in the Skills section should have class="skills-card" and the following:
-Image : class="skills-card-img"
-Name : class="skills-card-name"
 
 7. There must be two buttons for resume. Clicking on them should open the resume in a new tab and download it as a PDF. 
 They must have the following IDs:
