@@ -35,6 +35,6 @@ Link to GitHub repository : class="project-github-link"
 Deployed link or video link : class="project-deployed-link"
 
 10. The GitHub statistics images must have the following IDs:
-GitHub streak stats : id="github-streak-stats" [Link to refer : https://github-readme-streak-stats.herokuapp.com/demo/]
-GitHub top languages : id="github-top-langs" [Link to refer : https://github.com/anuraghazra/github-readme-stats]
-GitHub stats card : id="github-stats-card" [Link to refer : https://github.com/anuraghazra/github-readme-stats]
+GitHub streak stats :  [Link to refer : https://github-readme-streak-stats.herokuapp.com/demo/]
+GitHub top languages :  [Link to refer : https://github.com/anuraghazra/github-readme-stats]
+GitHub stats card :  [Link to refer : https://github.com/anuraghazra/github-readme-stats]
