@@ -34,18 +34,7 @@ Tech stack used : class="project-tech-stack"
 Link to GitHub repository : class="project-github-link"
 Deployed link or video link : class="project-deployed-link"
 
-9. For the GitHub calendar:  
-(the class is automatically included if you're using the react-github-calendar npm package)
-
 10. The GitHub statistics images must have the following IDs:
 GitHub streak stats : id="github-streak-stats" [Link to refer : https://github-readme-streak-stats.herokuapp.com/demo/]
 GitHub top languages : id="github-top-langs" [Link to refer : https://github.com/anuraghazra/github-readme-stats]
 GitHub stats card : id="github-stats-card" [Link to refer : https://github.com/anuraghazra/github-readme-stats]
-
-10. Do not repeat any of the above class names and ID names for any other element.
-
-General guidelines
-The system on cp.masaischool.com may take between 1-20 minutes for responding,
-so we request you to read the problem carefully and debug it before itself
-we also request you not just submit it last minute
-try to keep one submission at a time
