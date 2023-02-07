@@ -18,12 +18,13 @@
       <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
       <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
       <li><a class="nav-link resume" href="#"></a></li>
+      <button id="resume-button-1" href='./resume/Abhishek-Resume.pdf' download="">Resume2</a>
     </ul>
   </nav>
   <!-------------------- HOME ---------------------->
   <section id="home">
     <img src="./image/abhishek.jpg" class="home-img" alt="#" />
-    <a id="resume-link-2" onclick="window.open('./resume/Abhishek-Resume.pdf', '_blank');" download="">Resume2</a>
+    <button id="resume-button-2" onclick="window.open('./resume/Abhishek-Resume.pdf', '_blank');" download="">Resume2</a>
     <!-- <button id="resume-button-2"></button> -->
   </section>
   <!-------------------- ABOUT ---------------------->
@@ -99,7 +100,7 @@
   </section>
   <!-------------------- RESUME ---------------------->
   <section id="resume">
-    <a id="resume-link-1" href='./resume/Abhishek-Resume.pdf' download="">Resume2</a>
+    <button id="resume-link-1" href='./resume/Abhishek-Resume.pdf' download="">Resume2</a>
     <!-- <button id="resume-button-1"></button> -->
   </section>
   <!-------------------- GitHUB ---------------------->
@@ -118,12 +119,17 @@
 
 </html>
 <script>
+  document.getElementById('resume-button-1').addEventListener("click",()=>{
+    console.log("OPENinig.....")
+    window.open("./resume/Abhishek-Resume.pdf", "_blank");
+  })
+
   document.getElementById('resume-link-1').addEventListener("click",()=>{
     console.log("OPENinig.....")
     window.open("./resume/Abhishek-Resume.pdf", "_blank");
   })
 
-  document.getElementById('resume-link-2').addEventListener("click",()=>{
+  document.getElementById('resume-button-2').addEventListener("click",()=>{
     console.log("OPENinig.....")
     window.open("./resume/Abhishek-Resume.pdf", "_blank");
   })
