@@ -2,29 +2,74 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HOME PAGE</title>
-  <link rel="stylesheet" href="./style/index.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>Responsive portfolio website Chris - Bedimcode</title>
 </head>
 
 <body>
-  <nav id="nav-menu">
-    <ul>
-      <li><a class="nav-link home" href="#home">HOME</a></li>
-      <li><a class="nav-link about" href="#about">ABOUT</a></li>
-      <li><a class="nav-link skills" href="#skills">SKILLS</a></li>
-      <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
-      <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
-      <li><a class="nav-link resume" href="#"></a></li>
-      <a id="resume-button-1" href='./resume/Abhishek-Resume.pdf' download="Abhishek-Resume">Resume1</a>
-    </ul>
-  </nav>
+
+  <header>
+
+    <nav id="nav-menu" class="nav container">
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav-link home">
+              <i class="ri-home-5-line"></i>Home
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav-link skills">
+              <i class="ri-trophy-line"></i>Skill
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav-link about" href="#about">
+              <i class="ri-briefcase-line"></i>About
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#projects" class="nav-link projects">
+              <i class="ri-image-line"></i>Projects
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav-link contact">
+              <i class="ri-chat-3-line"></i>Contact
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="./resume/Abhishek-Resume.pdf" download="Abhishek-Resume" class="nav-link resume" id="resume-button-1">
+              <i class="ri-download-2-line"></i>Resume
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+  </header>
   <!-------------------- HOME ---------------------->
   <section id="home">
     <img src="./image/abhishek.jpg" class="home-img" alt="#" />
-    <a id="resume-button-2" href='./resume/Abhishek-Resume.pdf'  download="Abhishek-Resume">Resume2</a>
+    <a id="resume-button-2" href='./resume/Abhishek-Resume.pdf' download="Abhishek-Resume">Resume2</a>
     <!-- <button id="resume-button-2"></button> -->
   </section>
   <!-------------------- ABOUT ---------------------->
@@ -118,18 +163,19 @@
 </body>
 
 </html>
+
 <script>
-  document.getElementById('resume-button-1').addEventListener("click",()=>{
+  document.getElementById('resume-button-1').addEventListener("click", () => {
     console.log("OPENinig.....")
     window.open("https://drive.google.com/file/d/1DPUbSCRDJbNd2Su1NAzYhed_QRKdp1gG/view?usp=sharing", "_blank");
   })
 
-  document.getElementById('resume-link-1').addEventListener("click",()=>{
+  document.getElementById('resume-link-1').addEventListener("click", () => {
     console.log("OPENinig.....")
     window.open("https://drive.google.com/file/d/1DPUbSCRDJbNd2Su1NAzYhed_QRKdp1gG/view?usp=sharing", "_blank");
   })
 
-  document.getElementById('resume-button-2').addEventListener("click",()=>{
+  document.getElementById('resume-button-2').addEventListener("click", () => {
     console.log("OPENinig.....")
     window.open("https://drive.google.com/file/d/1DPUbSCRDJbNd2Su1NAzYhed_QRKdp1gG/view?usp=sharing", "_blank");
   })
