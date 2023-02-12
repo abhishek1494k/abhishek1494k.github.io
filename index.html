@@ -15,6 +15,7 @@
 
   <header>
     <nav id="nav-menu" class="nav container">
+      <!-- Nav Elements 1 -->
       <div>
         <ul>
           <li>
@@ -22,9 +23,9 @@
           </li>
         </ul>
       </div>
+      <!-- Nav Elements 2 -->
       <div>
         <ul>
-
           <li>
             <a href="#home" class="nav-link home">
               <span>01.</span> Home
@@ -40,7 +41,6 @@
               <span>03.</span>Skills
             </a>
           </li>
-
           <li>
             <a href="#projects" class="nav-link projects">
               <span>04.</span>Projects
@@ -51,18 +51,17 @@
               <span>05.</span>Contact
             </a>
           </li>
-
           <li>
             <a style="color: rgb(70, 194, 239);" href="./resume/Abhishek-Resume.pdf" download="Abhishek-Resume"
               class="nav-link resume" id="resume-button-1">
               Resume
             </a>
           </li>
-
         </ul>
       </div>
     </nav>
   </header>
+
   <div id="left_static" style="color: rgb(70, 194, 239);">
     <i class="fa-brands fa-github"></i>
     <i class="fa-brands fa-instagram"></i>
@@ -71,16 +70,19 @@
     <i class="fa-brands fa-codepen"></i>
     <h5>____________________________________________</h5>
   </div>
+
   <div id="right_static" style="color: rgb(70, 194, 239);">
     <h5> <span> abhi.jaiswal1494@gmail.com &nbsp;</span> ____________________________________________</h5>
   </div>
-  <div>
 
+  <div>
+    <!-------------------- HOME ---------------------->
     <section id="home">
       <img src="./image/abhishek.jpg" class="home-img" alt="#" />
+      <h3 id="user-detail-name"> Abhishek </h3>
       <!-- <button id="resume-button-2"></button> -->
     </section>
-
+    
     <!-------------------- ABOUT ---------------------->
     <section id="about" class="about section">
       <title>About</title>
@@ -161,6 +163,10 @@
     <!-------------------- GitHUB ---------------------->
     <section class="react-activity-calendar">
       <h1>GitHub React-Activity-Calendar</h1>
+      <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+      </div>
       <img id="github-streak-stats"
         src="https://github-readme-streak-stats.herokuapp.com?user=abhishek1494k&theme=radical&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
         alt="streakstat" />
@@ -177,10 +183,7 @@
   <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
   <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
   <!-- Prepare a container for your calendar. -->
-  <div class="calendar">
-    <!-- Loading stuff -->
-    Loading the data just for you.
-  </div>
+
   <script>
     GitHubCalendar(".calendar", "your-username");
 
