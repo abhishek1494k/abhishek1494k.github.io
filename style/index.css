@@ -178,16 +178,18 @@
   width: 70%;
 } */
 
-#contact{
+#contact div{
   margin: auto;
+  height: auto;
   width: 70%;
+  padding-bottom: 20px;
   text-align: center;
   border: 2px solid grey;
 }
 
-#contact i{
+#contact div a{
   color: rgb(255, 255, 255);
-  font-size: xx-large;
+  font-size: x-large;
   padding: 10px;
   border-radius: 10px;
   border: 2px solid  rgb(70, 194, 239);
