@@ -71,7 +71,7 @@
 #home img {
   width: 25%;
   border-radius: 10%;
-  border: 4px solid  rgb(70, 194, 239);
+  border: 2px solid  rgb(70, 194, 239);
 }
 
 #about {
@@ -91,6 +91,12 @@
   flex-direction: column;
   justify-content: space-evenly;
   z-index: 6;
+  transition: all 0.5s;
+}
+
+#left_static i:hover {
+  background-color: white;
+  border-radius: 10px;
 }
 
 #left_static i {
@@ -189,10 +195,10 @@
 
 #contact div a{
   color: rgb(255, 255, 255);
-  font-size: x-large;
+  font-size: large;
   padding: 10px;
   border-radius: 10px;
-  border: 2px solid  rgb(70, 194, 239);
+  border: 1px solid  rgb(70, 194, 239);
 }
 
 #resume{
@@ -204,8 +210,33 @@
 
 #resume a{
   color: rgb(255, 255, 255);
-  font-size: xx-large;
+  font-size: large;
+  color:  rgb(70, 194, 239);
   padding: 10px;
   border-radius: 10px;
-  border: 2px solid  rgb(70, 194, 239);
+  border: 1px solid  rgb(70, 194, 239);
+}
+
+.react-activity-calendar{
+  text-align: center;
+  width:80%;
+  margin: auto;
+  /* border: 2px solid  rgb(70, 194, 239); */
+}
+
+.calendar{
+  color: white;
+  background-color:white;
+}
+
+#git-stat>div:first-child{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+#git-stat>div>img{
+  width:50%;
+  background-color: black;
 }
