@@ -56,8 +56,6 @@
   border-radius: 5px;
 }
 
-/*+++++++++++ HOME ++++++++++*/
-
 #home {
   display: flex;
   flex-direction: column;
@@ -71,7 +69,7 @@
 #home img {
   width: 25%;
   border-radius: 10%;
-  border: 2px solid  rgb(70, 194, 239);
+  border: 2px solid rgb(70, 194, 239);
 }
 
 #about {
@@ -168,12 +166,14 @@
 #projects > div {
   display: flex;
   padding: 5px;
+  text-align: center;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   border: 2px solid grey;
 }
-.project-title{
+
+.project-title {
   color: white;
 }
 
@@ -184,7 +184,7 @@
   width: 70%;
 } */
 
-#contact div{
+#contact div {
   margin: auto;
   height: auto;
   width: 70%;
@@ -193,50 +193,170 @@
   border: 2px solid grey;
 }
 
-#contact div a{
+#contact div a {
   color: rgb(255, 255, 255);
   font-size: large;
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid  rgb(70, 194, 239);
+  border: 1px solid rgb(70, 194, 239);
 }
 
-#resume{
+#resume {
   margin: auto;
   width: 70%;
   text-align: center;
   /* border: 2px solid grey; */
 }
 
-#resume a{
+#resume a {
   color: rgb(255, 255, 255);
   font-size: large;
-  color:  rgb(70, 194, 239);
+  color: rgb(70, 194, 239);
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid  rgb(70, 194, 239);
+  border: 1px solid rgb(70, 194, 239);
 }
 
-.react-activity-calendar{
+.react-activity-calendar {
   text-align: center;
-  width:80%;
+  width: 80%;
   margin: auto;
   /* border: 2px solid  rgb(70, 194, 239); */
 }
 
-.calendar{
-  color: white;
-  background-color:white;
-}
-
-#git-stat>div:first-child{
+#git-stat > div:first-child {
   display: flex;
   flex-direction: column;
   margin: auto;
   align-items: center;
 }
 
-#git-stat>div>img{
-  width:50%;
+#git-stat > div > img {
+  width: 50%;
   background-color: black;
+}
+/* ------------------------------------------------------- */
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  /* Nav Bar only */
+  #projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+
+  #projects > div {
+    padding: 0px;
+    font-size: x-small;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid grey;
+  }
+  #projects > div > img {
+    width: 100%;
+  }
+
+  .project-github-link,
+  .project-deployed-link {
+    color: rgb(70, 194, 239);
+    border: 1px solid rgb(70, 194, 239);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  #contact div {
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #contact div a {
+    width: 30%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: x-small;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  #git-stat > div > img {
+    width: 70%;
+  }
+
+  #resume {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    /* border: 2px solid grey; */
+  }
+
+  #resume a {
+    font-size: x-small;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #skills {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin: auto;
+  }
+
+  #skills div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: rgb(70, 194, 239);
+    justify-content: space-between;
+  }
+  #skills img {
+    width: 40%;
+  }
+
+  #left_static {
+    width: 1%;
+    padding: 5px;
+  }
+
+  #about {
+    font-weight: 100;
+    font-size: x-small;
+  }
+
+  #resume-button-1,
+  #resume-button-2 {
+    color: rgb(70, 194, 239);
+    border: 1px solid rgb(70, 194, 239);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 710px) {
+  /* Nav Bar only */
+  #projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (min-width: 710px) and (max-width: 1000px) {
+  /* Nav Bar only */
 }
