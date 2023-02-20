@@ -73,7 +73,6 @@
 }
 
 #about {
-  height: 50vh;
   width: 70%;
   margin: auto;
   color: white;
@@ -203,21 +202,21 @@
   border: 1px solid rgb(70, 194, 239);
 }
 
-/* #resume {
+#resume {
   margin: auto;
   width: 70%;
   text-align: center;
-  border: 2px solid grey;
-} */
+  /* border: 2px solid grey; */
+}
 
-/* #resume a {
+#resume a {
   color: rgb(255, 255, 255);
   font-size: large;
   color: rgb(70, 194, 239);
   padding: 10px;
   border-radius: 10px;
   border: 1px solid rgb(70, 194, 239);
-} */
+}
 
 .react-activity-calendar {
   text-align: center;
@@ -331,7 +330,7 @@
     font-size: x-small;
   }
 
-  /* #resume-button-1, */
+  #resume-button-1,
   #resume-button-2 {
     color: rgb(70, 194, 239);
     border: 1px solid rgb(70, 194, 239);
