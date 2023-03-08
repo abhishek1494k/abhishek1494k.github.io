@@ -8,7 +8,7 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-#nav-menu {
+/* #nav-menu {
   top: 0;
   z-index: 6;
   width: 100%;
@@ -44,7 +44,7 @@
 }
 #nav-menu div ul li a span {
   color: rgb(70, 194, 239);
-}
+} */
 
 #resume-button-1,
 #resume-button-2,
