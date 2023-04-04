@@ -7,19 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HOME PAGE</title>
   <link rel="stylesheet" href="./style/index.css" />
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  <link rel="stylesheet" href="./Navigation menu/navBar.css">
+  <link rel="stylesheet" href="./style/iconAnimation.css">
+  <!------------------ Font ------------------>
   <script src="https://kit.fontawesome.com/d68d319f71.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./Navigation menu/css.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <!--------------- Git Calender----------------->
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
 </head>
 
 <body>
+  <!------------ NavBar ---------------->
   <header>
     <div id="nav-menu" class="nav">
       <input type="checkbox" id="nav-check">
       <div class="nav-header">
         <div class="nav-title">
-          <h4>&nbsp;Abhishek</h4>
+          <h4>Abhishek</h4>
         </div>
       </div>
       <div class="nav-btn">
@@ -29,20 +34,22 @@
           <span></span>
         </label>
       </div>
-      <!-- onclick="window.open('./resume/Abhishek_Resume', '_blank');" -->
       <div class="nav-links">
         <ul id="navbar">
-          <li><a class="nav-link home" href="#home">HOME</a></li>
-          <li><a class="nav-link about" href="#about">ABOUT</a></li>
-          <li><a class="nav-link skills" href="#skills">SKILLS</a></li>
-          <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
-          <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
-          <li class="nav-link resume" id="resume"> <button onclick="resume()" id="resume-button-1"><a id="resume-link-1" href="./resume/Abhishek_Resume.pdf"
-            target="_blank" download="Abhishek_Resume.pdf">Resume</a></button></li>
-
-          
-          <!-- <i class="fa-solid fa-download"></i> -->
-
+          <li><a class="nav-link home" href="#home"> <span
+                style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">01.</span>Home</a></li>
+          <li><a class="nav-link about" href="#about"> <span
+                style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">02.</span>About</a></li>
+          <li><a class="nav-link skills" href="#skills"> <span
+                style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">03.</span>Skills</a></li>
+          <li><a class="nav-link projects" href="#projects"> <span
+                style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">04.</span>Projects</a></li>
+          <li><a class="nav-link contact" href="#contact"> <span
+                style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">05.</span>Contacts</a></li>
+          <li class="nav-link resume" id="resume"> <button onclick="resume()" id="resume-button-1"><a id="resume-link-1"
+                href="./resume/Abhishek_Resume.pdf" target="_blank" download="Abhishek_Resume.pdf"
+                style="color: rgb(70, 194, 239); font-weight: 600; font-size: medium;">Resume</a></button>
+          </li>
         </ul>
       </div>
     </div>
@@ -82,7 +89,6 @@
         attention to details. Interested in the entire <span style="color:rgb(70, 194, 239);">frontend & backend
           spectrum</span> and working on ambitious projects with
         positive people. Well versed in Javascript, CSS, HTML, NodeJS, ExpressJS, MongoDB.
-
       </h3><br>
     </section>
 
@@ -248,20 +254,19 @@
     </section>
     <br>
   </div>
-  </script>
+  <!-- Logo Animation -->
+  <!-- <div id="logo-animation">
+    <img width="20%" src="./image/ABHISHEK_Logo.png" />
+  </div> -->
 </body>
 
 </html>
 
+<!-- SCRIPT -->
 <script>
   function resume() {
-    // window.location.assign('https://drive.google.com/file/d/1DPUbSCRDJbNd2Su1NAzYhed_QRKdp1gG/view?usp=sharing');
-      window.open("https://drive.google.com/file/d/1DPUbSCRDJbNd2Su1NAzYhed_QRKdp1gG/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1DPUbSCRDJbNd2Su1NAzYhed_QRKdp1gG/view?usp=sharing", "_blank");
   }
-  // document.getElementById('resume-button-2').addEventListener("click", () => {
-  //   window.open("https://drive.google.com/file/d/1DPUbSCRDJbNd2Su1NAzYhed_QRKdp1gG/view?usp=sharing", "_blank");
-  // })
-
   document.getElementById('contact-email').addEventListener('click', () => {
     alert('📩 abhi.jaiswal1494@gmail.com')
   })
@@ -270,5 +275,17 @@
   })
 
 </script>
+
+
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 <script src="./git_calender/git_calender.js"></script>
+
+<script>
+  // Icon Animation
+  window.onload = function () {
+    setTimeout(function () {
+      document.getElementById('logo-animation').style.display = 'none';
+    }, 2000);
+  };
+
+</script>
