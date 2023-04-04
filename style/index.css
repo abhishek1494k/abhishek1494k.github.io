@@ -46,10 +46,6 @@
   color: rgb(70, 194, 239);
 } */
 
-.nav-title{
-  font-family: 'Courier New', Courier, monospace;
-}
-
 #resume-button-2,
 .project-github-link,
 .project-deployed-link {
@@ -71,7 +67,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 50px;
   color: white;
   justify-content: center;
@@ -91,7 +87,7 @@
   text-align: center;
   font-weight: 400;
 }
-
+/* <!------------ Left Static----------------> */
 #left_static {
   width: 2%;
   padding: 10px;
@@ -101,23 +97,23 @@
   flex-direction: column;
   justify-content: space-evenly;
   z-index: 6;
-  transition: all 0.5s;
-}
 
-#left_static i:hover {
-  background-color: white;
-  border-radius: 10px;
 }
-
 #left_static i {
   color: rgb(70, 194, 239);
+  font-size: medium;
+  transition-duration: 0.5s;
 }
-
+#left_static i:hover {
+  color: rgb(135, 223, 255);
+  border-radius: 10px;
+  font-size: x-large;
+}
 #left_static h5 {
   writing-mode: vertical-rl;
   color: rgb(70, 194, 239);
 }
-
+/* <!------------ Right Static----------------> */
 #right_static {
   padding: 10px;
   padding-top: 20px;
@@ -134,10 +130,18 @@
   writing-mode: vertical-rl;
   color: rgb(70, 194, 239);
 }
-
 #right_static span {
   letter-spacing: 2px;
+  font-size:16px;
+  transition-duration: 0.5s;
 }
+#right_static span:hover {
+  background-color: white;
+  color: rgb(0, 187, 255);
+  padding: 5px;
+  border-radius: 5px;
+}
+
 
 #container {
   width: 86%;
