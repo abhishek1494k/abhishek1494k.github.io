@@ -4,11 +4,12 @@
   width: 100%;
   background-color:rgb(0, 0, 0);
   /* border: 1px solid white; */
-  position: relative;
+  /* position: relative; */
   position: fixed;
   top: 0;
+  left: 0;
   padding-top: 20px;
-  margin-bottom: 90px;
+  margin-bottom: 190px;
 }
 
 .nav > .nav-header {
@@ -38,9 +39,34 @@
   list-style: none;
   position: relative;
 }
-.nav > .nav-links > ul :hover {
-  border-bottom: 2px solid rgb(70, 194, 239);
+
+.nav > .nav-links > ul>li {
+  border: 3px solid;
+  border-image: repeating-linear-gradient(
+      135deg,
+      rgb(70, 194, 239) 0 10px,
+      rgb(70, 194, 239) 0 20px,
+      white 0 30px
+    )
+    8;
+  -webkit-mask: conic-gradient(
+        from 180deg at top 8px right 8px,
+        #0000 90deg,
+        #000 0
+      )
+      var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
+    conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0
+      var(--_i, 200%) / var(--_i, 8px) 200% border-box no-repeat,
+    linear-gradient(#000 0 0) padding-box no-repeat;
+  transition: 0.3s, -webkit-mask-position 0.3s 0.3s;
 }
+
+.nav > .nav-links > ul>li:hover {
+  --_i: 100%;
+  color: #ffffff;
+  transition: 0.2s, -webkit-mask-size 0.2s 0.2s;
+}
+
 .nav > .nav-links > ul li {
   display: inline-block;
   background-color:rgb(70, 194, 239);
@@ -72,21 +98,14 @@
   border-radius: 5px;
   background-color: black;
 }
+
+
 @media (max-width: 750px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
     right: 0px;
     top: 0px;
-    /* text-align: center; */
-  }
-
-  #resume-button-1 {
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
-    /* padding: -10px; */
-    /* border-radius: 5px; */
-    /* margin-top: -10px; */
     /* text-align: center; */
   }
 
