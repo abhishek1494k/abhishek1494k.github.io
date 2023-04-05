@@ -41,8 +41,6 @@
 #nav-menu div ul li a span {
   color: rgb(70, 194, 239);
 } */
-
-#resume-button-2,
 .project-github-link,
 .project-deployed-link {
   color: rgb(70, 194, 239);
@@ -50,29 +48,35 @@
   padding: 10px;
   border-radius: 5px;
 }
-
-#resume-button-1 {
-  border: 3px solid rgb(70, 194, 239);
-  border-radius: 5px;
-  background-color: black;
-}
-
+/* <!------------ Home ----------------> */
 #home {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: white;
+  border: 1px solid white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
-  margin-bottom: 70px;
-  color: white;
-  justify-content: center;
+  align-content: center;
 }
 
 #home img {
-  width: 25%;
+  width: 20%;
   border-radius: 10%;
-  border: 2px solid rgb(70, 194, 239);
 }
 
+#resume-button-2 {
+  border: 3px solid rgb(70, 194, 239);
+  background-color: black;
+  color: rgb(70, 194, 239);
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+
+/* <!------------ About----------------> */
 #about {
   height: 50vh;
   width: 70%;
@@ -84,7 +88,7 @@
 /* <!------------ Left Static----------------> */
 #left_static {
   width: 2%;
-  padding: 40px;
+  padding-left: 30px;
   position: fixed;
   height: 27rem;
   display: flex;
@@ -238,25 +242,43 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 #contact div a {
   color: rgb(255, 255, 255);
+  margin: 5px;
   padding: 10px;
   font-size: large;
   font-weight: 600;
-  border-radius: 10px;
   transition: all 0.2s;
+}
+#contact div a {
+  /* border: 1px solid white;; */
+  border: 3px solid;
+  border-image: repeating-linear-gradient(
+      135deg,
+      rgb(70, 194, 239) 0 10px,
+      rgb(70, 194, 239) 0 20px,
+      white 0 30px
+    )
+    8;
+  -webkit-mask: conic-gradient(
+        from 180deg at top 8px right 8px,
+        #0000 90deg,
+        #000 0
+      )
+      var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
+    conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0
+      var(--_i, 200%) / var(--_i, 8px) 200% border-box no-repeat,
+    linear-gradient(#000 0 0) padding-box no-repeat;
+  transition: 0.3s, -webkit-mask-position 0.3s 0.3s;
 }
 
 #contact div a:hover {
-  font-weight: 700;
-  font-size: x-large;
-  color: rgb(70, 194, 239);
-}
-
-#contact div a i:hover {
-  color: rgb(70, 194, 239);
+  --_i: 100%;
+  color: #ffffff;
+  transition: 0.2s, -webkit-mask-size 0.2s 0.2s;
 }
 
 #contact div h2 span {
@@ -432,7 +454,6 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
   }
-  
 }
 
 @media screen and (min-width: 710px) and (max-width: 1000px) {
