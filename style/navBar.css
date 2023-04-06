@@ -33,12 +33,10 @@
 } */
 
 .nav {
-  /* margin-top: 20px; */
   height: 50px;
   width: 100%;
   background-color: rgb(0, 0, 0);
-  /* border: 1px solid white; */
-  /* position: relative; */
+  border: 2px solid rgb(0, 0, 0);
   position: fixed;
   top: 0;
   left: 0;
@@ -49,6 +47,7 @@
 .nav > .nav-header {
   display: inline;
 }
+
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
@@ -61,14 +60,14 @@
 .nav > .nav-btn {
   display: none;
 }
+
 .nav > .nav-links {
   display: inline;
   float: right;
-  /* border: 1px solid rgb(255, 255, 255); */
 }
+
 .nav > .nav-links > ul {
   padding: 0;
-  margin-top: 5px;
   margin-right: 40px;
   list-style: none;
   position: relative;
@@ -153,7 +152,6 @@
     background-color: rgba(0, 0, 0, 0.3);
   }
   .nav > .nav-btn > label > span {
-    /* text-align: center; */
     display: block;
     width: 25px;
     height: 10px;
