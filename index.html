@@ -21,7 +21,6 @@
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <!--------------- Git Calender----------------->
   <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-
 </head>
 
 <body>
@@ -85,12 +84,13 @@
             <h1 id="user-detail-name"> I'm Abhishek </h1>
             <h1>Full Stack Web Developer</h1>
             <br>
-            <button onclick="resume()" id="resume-button-2"><a style="background-color:  rgb(70, 194, 239);;" id="resume-link-2" href="./resume/Abhishek_Resume.pdf"
-                target="_blank" download="Abhishek_Resume.pdf">Resume</a></button>
+            <button onclick="resume()" id="resume-button-2"><a style="background-color:  rgb(70, 194, 239);;"
+                id="resume-link-2" href="./resume/Abhishek_Resume.pdf" target="_blank"
+                download="Abhishek_Resume.pdf">Resume</a></button>
         </div>
         <div id="home_2"><img src="./image/abhishek.jpg" class="home-img" alt="#" /></div>
       </div>
-      
+
     </section>
 
     <!-------------------- ABOUT ---------------------->
@@ -166,7 +166,7 @@
       <div class="skills-card">
         <img class="skills-card-img"
           src="https://raw.githubusercontent.com/abhishek1494k/abhishek1494k/main/assets/tools/vs-code.png" alt="" />
-        <h5 class="skills-card-name">NPM</h5>
+        <h5 class="skills-card-name">VSCode</h5>
       </div>
     </section>
     <br><br>
@@ -233,18 +233,22 @@
     <br>
     <!-------------------- GitHUB ---------------------->
     <section class="react-activity-calendar">
-      <h2>GitHub-Activity-Calendar</h2>
+      <h2><span style="color: rgb(70, 194, 239); font-weight: 600; font-size: larger;">G</span>itHub-Activity-Calendar</h2>
+      <br>
       <div class="calendar">
         <!-- Loading the data just for you. -->
       </div>
-      <br><br>
+      <br>
+      <h2><span style="color: rgb(70, 194, 239); font-weight: 600; font-size: larger;">G</span>ithub Stats</h2>
+      <br>
       <div id="git-stat">
         <div>
-          <h2>Github Stats</h2>
           <img id="github-streak-stats"
             src="https://github-readme-streak-stats.herokuapp.com?user=abhishek1494k&theme=react&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
             alt="streakstat" />
-          <br>
+        </div>
+        <br>
+        <div>
           <img id="github-stats-card"
             src="https://github-readme-stats.vercel.app/api?username=abhishek1494k&count_private=true&theme=react"
             alt="stat-card" />
@@ -257,25 +261,29 @@
         </div>
       </div>
     </section>
+
+
+
     <!-------------------- CONTACTS ---------------------->
     <section id="contact">
-      <div>
+      <div id="contact-div">
         <h2><span>05.</span>Contacts</h2>
         <br>
-        <hr>
-        <br>
-        <a id="contact-github" href="https://github.com/abhishek1494k" target="_blank"><i
-            class="fa-brands fa-github"></i> Github</a>
-        <a id="contact-linkedin" href="https://www.linkedin.com/in/abhishek1994k/" target="_blank"><i
-            class="fa-brands fa-linkedin"></i> Linkedin</a>
-        <a id="contact-phone" href="#"><i class="fa-solid fa-mobile-screen-button" target="_blank"></i> Mobile</a>
-        <a id="contact-email" href="https://mail.google.com/mail/?view=cm&fs=1&to=abhi.jaiswal1494@gmail.com"
-          target="_blank"><i class="fa-solid fa-envelope"></i> Email</a>
+        <div>
+          <a id="contact-github" href="https://github.com/abhishek1494k" target="_blank"><i
+              class="fa-brands fa-github"></i> Github</a>
+          <a id="contact-linkedin" href="https://www.linkedin.com/in/abhishek1994k/" target="_blank"><i
+              class="fa-brands fa-linkedin"></i> Linkedin</a>
+          <a id="contact-phone" href="#"><i class="fa-solid fa-mobile-screen-button" target="_blank"></i>
+            +917359292363</a>
+          <a id="contact-email" href="https://mail.google.com/mail/?view=cm&fs=1&to=abhi.jaiswal1494@gmail.com"
+            target="_blank"><i class="fa-solid fa-envelope"></i> Email</a>
+        </div>
       </div>
     </section>
-    <br>
   </div>
 </body>
+
 </html>
 <script>
   function resume() {

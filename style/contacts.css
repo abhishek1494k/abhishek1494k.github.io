@@ -1,18 +1,36 @@
-#contact div {
+#contact{
+  padding-top: 25px;
+}
+#contact-div{
   width: 60%;
   height: auto;
   margin: auto;
-  margin-top: 50px;
   padding: 25px 0px 25px 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   text-align: center;
-  border: 2px solid grey;
+}
+
+#contact-div div {
+  border: 2px solid rgb(77, 77, 77);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-
-#contact div a {
+#contact-div h2{
+  border: 1px solid rgb(82, 82, 82);;
+  padding: 10px;
+  width: 42%;
+  margin: auto;
+  text-align: center;
+}
+#contact-div h2 span {
+  color: rgb(70, 194, 239);
+  font-weight: 600;
+  font-size: medium;
+}
+#contact-div div a {
   color: rgb(255, 255, 255);
   margin: 5px;
   padding: 10px;
@@ -20,7 +38,7 @@
   font-weight: 600;
   transition: all 0.2s;
 }
-#contact div a {
+#contact-div div a {
   /* border: 1px solid white;; */
   border: 3px solid;
   border-image: repeating-linear-gradient(
@@ -41,50 +59,43 @@
     linear-gradient(#000 0 0) padding-box no-repeat;
   transition: 0.3s, -webkit-mask-position 0.3s 0.3s;
 }
-
-#contact div a:hover {
+#contact-div div a:hover {
   --_i: 100%;
   color: #ffffff;
   transition: 0.2s, -webkit-mask-size 0.2s 0.2s;
 }
 
-#contact div h2 span {
-  color: rgb(70, 194, 239);
-  font-weight: 600;
-  font-size: medium;
-}
-
 @media screen and (min-width: 100px) and (max-width: 500px) {
-  #contact div a {
+  #contact-div div a {
     padding: 10px;
     font-size: small;
     font-weight: 600;
     transition: all 0.2s;
   }
-  #contact div a:hover {
+  #contact-div div a:hover {
     font-weight: 700;
     font-size: medium;
     color: rgb(70, 194, 239);
   }
-  #contact div h2 {
+  #contact-div div h2 {
     font-size: medium;
   }
-  #contact div a i {
+  #contact-div div a i {
     font-size: x-small;
   }
-  #contact div h2 span {
+  #contact-div div h2 span {
     color: rgb(70, 194, 239);
     font-weight: 600;
     font-size: small;
   }
-  #contact div {
+  #contact-div div {
     display: flex;
     padding-top: 10px;
     flex-direction: column;
     justify-content: center;
   }
 
-  #contact div a {
+  #contact-div div a {
     width: 30%;
     margin: auto;
     color: rgb(255, 255, 255);
