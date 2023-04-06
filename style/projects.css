@@ -46,6 +46,10 @@
   margin: auto;
   text-align: center;
 }
+#projects h2:hover{
+  border: 1px solid rgb(255, 255, 255);;
+
+}
 
 @media screen and (min-width: 100px) and (max-width: 500px) {
   #project-div {

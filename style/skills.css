@@ -1,6 +1,6 @@
 #skills {
-    /* border: 1px solid white; */
-    padding-top: 80px;
+  /* border: 1px solid white; */
+  padding-top: 80px;
 }
 
 #skills h2 {
@@ -11,10 +11,14 @@
   text-align: center;
 }
 
+#skills h2:hover{
+  border: 1px solid rgb(255, 255, 255);
+}
+
 #skills-div {
   width: 60%;
   display: grid;
-  gap: 5px;
+  gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   margin: auto;
@@ -28,6 +32,14 @@
   align-content: center;
   color: rgb(70, 194, 239);
   justify-content: space-between;
+  transition-duration: all 1s;
+}
+
+#skills-div div:hover {
+  border: 2px solid white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 #skills-div img {
