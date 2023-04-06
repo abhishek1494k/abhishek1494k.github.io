@@ -1,0 +1,57 @@
+#left_static {
+  width: 2%;
+  padding-left: 30px;
+  position: fixed;
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 6;
+  margin-top: 100px;
+}
+#left_static i {
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  transition-duration: 0.5s;
+}
+#left_static i:hover {
+  color: rgb(135, 223, 255);
+  border-radius: 10px;
+  font-size: large;
+}
+#left_static h5 {
+  writing-mode: vertical-rl;
+  color: rgb(70, 194, 239);
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  #left_static {
+    width: 2%;
+    padding: 10px;
+    position: fixed;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 6;
+  }
+  #left_static i {
+    color: rgb(255, 255, 255);
+    font-size: small;
+    transition-duration: 0.5s;
+  }
+  #left_static i:hover {
+    font-size: medium;
+  }
+  #left_static h5 {
+    writing-mode: vertical-rl;
+    color: rgb(70, 194, 239);
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 710px) {
+}
+
+@media screen and (min-width: 710px) and (max-width: 1000px) {
+  /* Nav Bar only */
+}

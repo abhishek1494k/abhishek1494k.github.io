@@ -1,0 +1,27 @@
+#about {
+  height: 50vh;
+  width: 70%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+}
+
+#container {
+  width: 86%;
+  margin: auto;
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  #about {
+    font-weight: 100;
+    font-size: x-small;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 710px) {
+
+}
+
+@media screen and (min-width: 710px) and (max-width: 1000px) {
+}

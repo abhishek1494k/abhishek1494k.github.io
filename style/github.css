@@ -1,0 +1,32 @@
+.react-activity-calendar {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  /* border: 2px solid  rgb(70, 194, 239); */
+}
+
+#git-stat > div:first-child {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+#git-stat > div > img {
+  width: 50%;
+  background-color: black;
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  #git-stat > div > img {
+    width: 70%;
+  }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 710px) {
+}
+
+@media screen and (min-width: 710px) and (max-width: 1000px) {
+  /* Nav Bar only */
+}

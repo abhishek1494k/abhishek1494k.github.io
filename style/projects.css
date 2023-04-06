@@ -1,0 +1,78 @@
+#projects {
+  width: 70%;
+  margin-top: 20vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 5px;
+  margin: auto;
+}
+
+#projects > div {
+  display: flex;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid grey;
+}
+
+.project-title {
+  color: white;
+}
+
+#projects > div > img {
+  width: 100%;
+}
+
+.project-github-link,
+.project-deployed-link {
+  color: rgb(70, 194, 239);
+  border: 1px solid rgb(70, 194, 239);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  #projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+
+  #projects > div {
+    padding: 0px;
+    font-size: x-small;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid grey;
+  }
+  #projects > div > img {
+    width: 100%;
+  }
+
+  .project-github-link,
+  .project-deployed-link {
+    color: rgb(70, 194, 239);
+    border: 1px solid rgb(70, 194, 239);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 710px) {
+  #projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (min-width: 710px) and (max-width: 1000px) {
+  /* Nav Bar only */
+}

@@ -1,0 +1,115 @@
+#home {
+  padding-top: 20px;
+}
+
+#home-div {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+}
+
+#home-div div {
+  border: 1px solid white;
+}
+
+#home_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#home_1 h1 {
+  font-size: xxx-large;
+}
+
+#home-div img {
+  width: 80%;
+  border-radius: 10%;
+}
+
+#home_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* #resume-button-2 { */
+  /* border: 3px solid rgb(70, 194, 239);
+    background-color: black;
+    color: rgb(70, 194, 239);
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 550; */
+/* } */
+
+#resume-button-2 {
+  width: min-content;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: 550;
+  background-color: rgb(70, 194, 239);
+  border: none;
+  color: #ffffff;
+  outline: none;
+  padding: 10px 20px 10px;
+  position: relative;
+}
+
+#resume-button-2::before,
+#resume-button-2::after {
+  border: 0 solid transparent;
+  transition: all 0.3s;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 24px;
+}
+
+#resume-button-2::before {
+  border-top: 3px solid rgb(70, 194, 239);
+  right: 0;
+  top: -4px;
+}
+
+#resume-button-2::after {
+  border-bottom: 3px solid rgb(255, 255, 255);
+  bottom: -4px;
+  left: 0;
+}
+
+#resume-button-2:hover::before,
+#resume-button-2:hover::after {
+  width: 100%;
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  #resume-button-2 {
+    color: rgb(70, 194, 239);
+    border: 1px solid rgb(70, 194, 239);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 710px) {
+
+}
+
+@media screen and (min-width: 710px) and (max-width: 1000px) {
+  
+}
