@@ -1,44 +1,7 @@
 #projects{
-  padding-top: 80px;
+  padding-top: 75px;
   /* border: 1px solid white; */
 }
-
-#project-div {
-  width: 70%;
-  margin-top: 20vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: auto;
-  gap: 5px;
-  margin: auto;
-}
-
-#project-div > div {
-  display: flex;
-  padding: 5px;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  border: 2px solid grey;
-}
-
-.project-title {
-  color: white;
-}
-
-#project-div > div > img {
-  width: 100%;
-}
-
-.project-github-link,
-.project-deployed-link {
-  color: rgb(70, 194, 239);
-  border: 1px solid rgb(70, 194, 239);
-  padding: 10px;
-  border-radius: 5px;
-}
-
 #projects h2{
   border: 1px solid rgb(82, 82, 82);;
   padding: 10px;
@@ -48,10 +11,47 @@
 }
 #projects h2:hover{
   border: 1px solid rgb(255, 255, 255);;
-
+}
+#project-div {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
 }
 
-@media screen and (min-width: 100px) and (max-width: 500px) {
+ .project-card {
+  display: flex;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid grey;
+  
+}
+
+.project-title {
+  color: white;
+}
+
+.project-card img {
+  width: 80%;
+}
+
+.project-github-link,
+.project-deployed-link {
+  color: rgb(70, 194, 239);
+  border: 1px solid rgb(70, 194, 239);
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+
+
+/* @media screen and (min-width: 100px) and (max-width: 500px) {
   #project-div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -86,7 +86,7 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
   }
-}
+} */
 
 @media screen and (min-width: 710px) and (max-width: 1000px) {
   /* Nav Bar only */
