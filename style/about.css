@@ -1,17 +1,32 @@
 #about {
-  height: 50vh;
+  padding-top: 80px;
+}
+
+#about-div {
   width: 70%;
   margin: auto;
-  color: white;
-  text-align: center;
-  font-weight: 400;
+  text-align:left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid rgb(82, 82, 82); */
 }
-
-#container {
-  width: 86%;
+#about h2 {
+  border: 1px solid rgb(82, 82, 82);
+  padding: 10px;
+  width: 42%;
   margin: auto;
+  text-align: center;
 }
-
+#user-detail-intro{
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  user-select: none;
+}
+#user-detail-intro span{
+  font-weight: 600;
+}
 @media screen and (min-width: 100px) and (max-width: 500px) {
   #about {
     font-weight: 100;
@@ -20,7 +35,6 @@
 }
 
 @media screen and (min-width: 500px) and (max-width: 710px) {
-
 }
 
 @media screen and (min-width: 710px) and (max-width: 1000px) {
