@@ -1,16 +1,16 @@
-#projects{
+#projects {
   padding-top: 75px;
   /* border: 1px solid white; */
 }
-#projects h2{
-  border: 1px solid rgb(82, 82, 82);;
+#projects h2 {
+  border: 1px solid rgb(82, 82, 82);
   padding: 10px;
   width: 42%;
   margin: auto;
   text-align: center;
 }
-#projects h2:hover{
-  border: 1px solid rgb(255, 255, 255);;
+#projects h2:hover {
+  border: 1px solid rgb(255, 255, 255);
 }
 #project-div {
   width: 70%;
@@ -18,10 +18,9 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-  
 }
 
- .project-card {
+.project-card {
   display: flex;
   padding: 5px;
   text-align: center;
@@ -29,14 +28,13 @@
   align-items: center;
   flex-direction: column;
   border: 2px solid grey;
-  
 }
 
 .project-title {
   color: white;
 }
 
-.project-card img {
+.project-card-img img {
   width: 80%;
 }
 
@@ -46,10 +44,11 @@
   border: 1px solid rgb(70, 194, 239);
   padding: 10px;
   border-radius: 5px;
-  
 }
 
-
+.project-tech-stack>img{
+width: 5%;
+}
 
 /* @media screen and (min-width: 100px) and (max-width: 500px) {
   #project-div {
@@ -57,7 +56,6 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
   }
-
   #project-div > div {
     padding: 0px;
     font-size: x-small;
@@ -69,7 +67,6 @@
   #project-div > div > img {
     width: 100%;
   }
-
   .project-github-link,
   .project-deployed-link {
     color: rgb(70, 194, 239);
@@ -79,7 +76,6 @@
     margin-top: 5px;
   }
 }
-
 @media screen and (min-width: 500px) and (max-width: 710px) {
   #project-div {
     display: grid;
