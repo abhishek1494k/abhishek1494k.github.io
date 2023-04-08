@@ -20,8 +20,8 @@
 }
 #user-detail-intro{
   width: 50%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 200;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 600;
   user-select: none;
 }
 #user-detail-intro span{

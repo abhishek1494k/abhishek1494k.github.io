@@ -2,6 +2,7 @@
   padding-top: 75px;
   /* border: 1px solid white; */
 }
+
 #projects h2 {
   border: 1px solid rgb(82, 82, 82);
   padding: 10px;
@@ -9,45 +10,64 @@
   margin: auto;
   text-align: center;
 }
+
 #projects h2:hover {
   border: 1px solid rgb(255, 255, 255);
 }
+
 #project-div {
   width: 70%;
   height: auto;
   display: flex;
   flex-direction: column;
   margin: auto;
+  /* border: 2px solid grey; */
 }
 
 .project-card {
-  display: flex;
   padding: 5px;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
+  height: auto;
+  display: flex;
   flex-direction: column;
-  border: 2px solid grey;
-}
-
-.project-title {
-  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid rgb(135, 135, 135);
 }
 
 .project-card-img img {
   width: 80%;
 }
 
+.project-card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-title,
+.project-description,
+.project-tech-stack,
+.project-card-links {
+  margin: 5px;
+  /* border: 1px solid blue; */
+}
+
 .project-github-link,
 .project-deployed-link {
   color: rgb(70, 194, 239);
-  border: 1px solid rgb(70, 194, 239);
-  padding: 10px;
-  border-radius: 5px;
+  /* border: 1px solid rgb(70, 194, 239); */
+  /* padding: 10px; */
+  /* border-radius: 5px; */
+}
+.project-github-link > i,
+.project-deployed-link > i {
+  font-size: x-large;
 }
 
-.project-tech-stack>img{
-width: 5%;
+.project-tech-stack > img {
+  width:4%;
 }
 
 /* @media screen and (min-width: 100px) and (max-width: 500px) {
