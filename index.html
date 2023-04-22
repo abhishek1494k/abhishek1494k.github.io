@@ -28,40 +28,45 @@
 
 <body>
   <!------------ NavBar ---------------->
-  <header>
-    <div id="nav-menu" class="nav">
-      <input type="checkbox" id="nav-check">
-      <div class="nav-header">
-        <div class="nav-title">
-          <h4><span style="color: rgb(70, 194, 239); font-weight: 600; font-size: larger;">A</span>bhishek</h4>
-        </div>
+  <header class="header" id="nav-menu">
+    <nav class="navbar">
+      <a href="#" class="nav-logo" style="font-weight: 550; font-size: 22px; color: rgb(255, 255, 255);"><span
+          style="color: rgb(70, 194, 239); font-weight: 600;  font-size: larger;">A</span>BHISHEK</a>
+      <ul class="nav-menu">
+        <li class="nav--item">
+          <a class="nav-link home" href="#home" class="nav-link"><span
+            style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">01.</span>Home</a>
+        </li>
+        <li class="nav--item">
+          <a class="nav-link about" href="#about" class="nav-link"><span
+            style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">02.</span>About</a>
+        </li>
+        <li class="nav--item">
+          <a class="nav-link skills" href="#skills" class="nav-link"><span
+            style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">03.</span>Skills</a>
+        </li>
+        <li class="nav--item">
+          <a class="nav-link projects" href="#projects" class="nav-link"><span
+            style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">04.</span>Projects</a>
+        </li>
+        <li class="nav--item">
+          <a class="nav-link contact" href="#contact" class="nav-link"><span
+            style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">05.</span>Contacts</a>
+        </li>
+        <li class="nav--item" class="nav-link resume" id="resume">
+          <button onclick="resume()" id="resume-button-1"><a id="resume-link-1"
+                  href="./resume/Abhishek_Resume.pdf" target="_blank" download="Abhishek-Resume.pdf"
+                  style="color: rgb(255, 255, 255); font-weight: 600; font-size: medium;"
+                  class="nav-link"><span
+                      style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">05.</span>Resume</a></button>
+      </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
-      <div class="nav-btn">
-        <label for="nav-check">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-      </div>
-      <div class="nav-links">
-        <ul id="navbar">
-          <li><a class="nav-link home" href="#home"> <span
-                style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">01.</span>Home</a></li>
-          <li><a class="nav-link about" href="#about"> <span
-                style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">02.</span>About</a></li>
-          <li><a class="nav-link skills" href="#skills"> <span
-                style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">03.</span>Skills</a></li>
-          <li><a class="nav-link projects" href="#projects"> <span
-                style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">04.</span>Projects</a></li>
-          <li><a class="nav-link contact" href="#contact"> <span
-                style="color: rgb(70, 194, 239); font-weight: 600; font-size: small;">05.</span>Contacts</a></li>
-          <li class="nav-link resume" id="resume"> <button onclick="resume()" id="resume-button-1"><a id="resume-link-1"
-                href="./resume/Abhishek_Resume.pdf" target="_blank" download="Abhishek_Resume.pdf"
-                style="color: rgb(255, 255, 255); font-weight: 600; font-size: medium;">Resume</a></button>
-          </li>
-        </ul>
-      </div>
-    </div>
+    </nav>
   </header>
 
   <!------------ Left Static  ---------------->
@@ -207,7 +212,7 @@
             </div>
           </div>
         </div>
-<br>
+        <br>
         <!-- 2 -->
         <div class="project-card">
           <!-- <title class="project-title">HomeDecor</title> -->
@@ -254,7 +259,7 @@
             </div>
           </div>
         </div>
-<br>
+        <br>
         <!-- 4 -->
         <div class="project-card">
           <!-- <title class="project-title">MyTv</title> -->
@@ -361,3 +366,4 @@
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 <script src="./script/git_calender.js"></script>
 <script src="./script/cursor.js"></script>
+<script src="./script/navBar.js"></script>
