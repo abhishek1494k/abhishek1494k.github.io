@@ -2,30 +2,6 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
-#about-div {
-  width: 70%;
-  margin: auto;
-  text-align:left;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /* border: 1px solid rgb(82, 82, 82); */
-}
-
-#about-icon{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  /* border: 1px solid white; */
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-#about-div i{
-  font-size: 40px;
-  margin: 10px 20px;
-}
 #about h2 {
   border: 1px solid rgb(82, 82, 82);
   padding: 10px;
@@ -33,35 +9,114 @@
   margin: auto;
   text-align: center;
 }
-#user-detail-intro{
-  width: 50%;
-  font-family:'Courier New', Courier, monospace;
-  font-weight: 600;
-  user-select: none;
-}
-#user-detail-intro span{
-  font-weight: 600;
+#about-div {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-/* For smartphones */
-@media (max-width: 480px) {
-  /* CSS styles for smartphones */
-  #about {
-    margin: auto;
-    font-weight: 100;
-    font-size: x-small;
-  }
+#about-div > div > div {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
+#user-detail {
+  /* background-color: aqua; */
+  padding: 15px;
+  border: 1px solid rgb(82, 82, 82);
+  font-size: medium;
+}
+
+#about-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+#about-div i {
+  font-size: 40px;
+  margin: 10px 20px;
+}
+
+#about p{
+  font-weight: 700;
+}
+#about img{
+  width:45%;
+}
 /* For smartphones */
+
 @media screen and (min-width: 100px) and (max-width: 480px) {
   /* CSS styles for smartphones */
-     
+ 
 }
 
 /* For small tablets */
 @media screen and (min-width: 480px) and (max-width: 768px) {
   /* CSS styles for small tablets */
+  #about {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  #about h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 5px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+  #about-div {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(82, 82, 82);
+    align-items: center;
+    text-align: center;
+  }
+  
+  #about-div > div > div {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #user-detail {
+    /* background-color: aqua; */
+    padding: 5px;
+    font-size: medium;
+  }
+  
+  #about-icon {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+  #about-div i {
+    font-size: 20px;
+    margin: 5px 10px;
+  }
+  
+  #about p{
+    font-weight: 700;
+  }
+
+  #about img{
+    width:45%;
+  }
 }
 
 /* For larger tablets and smaller laptops */
