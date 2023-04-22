@@ -48,37 +48,111 @@
 }
 
 @media screen and (min-width: 100px) and (max-width: 500px) {
+  
+}
+
+/* For smartphones */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
   #skills {
-    width: 50%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  #skills h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 10px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #skills h2:hover{
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  #skills-div {
+    width: 70%;
     display: grid;
+    gap: 5px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     margin: auto;
   }
-
-  #skills div {
+  
+  #skills-div div {
+    border: 2px solid grey;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
     color: rgb(70, 194, 239);
     justify-content: space-between;
+    transition-duration: all 1s;
   }
-  #skills img {
-    width: 40%;
+  
+  #skills-div div:hover {
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
-}
-
-/* For smartphones */
-@media screen and (min-width: 100px) and (max-width: 480px) {
-  /* CSS styles for smartphones */
-   
+  
+  #skills-div img {
+    width: 30%;
+  }
 }
 
 /* For small tablets */
 @media screen and (min-width: 480px) and (max-width: 768px) {
   /* CSS styles for small tablets */
-
+  #skills {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  #skills h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 10px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #skills h2:hover{
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  #skills-div {
+    width: 80%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    margin: auto;
+  }
+  
+  #skills-div div {
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: rgb(70, 194, 239);
+    justify-content: space-between;
+    transition-duration: all 1s;
+  }
+  
+  #skills-div div:hover {
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  #skills-div img {
+    width: 40%;
+  }
 }
 
 /* For larger tablets and smaller laptops */
