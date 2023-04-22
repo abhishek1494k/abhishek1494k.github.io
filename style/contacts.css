@@ -53,8 +53,8 @@
   /* CSS styles for smartphones */
   #contact {
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 150px;
   }
 
   #contact-div {
@@ -98,8 +98,9 @@
 @media screen and (min-width: 480px) and (max-width: 768px) {
   /* CSS styles for small tablets */
   #contact {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 150px;
   }
 
   #contact-div {
@@ -125,19 +126,17 @@
     width: 42%;
     margin: auto;
     text-align: center;
+    font-size: 1rem;
   }
 
   #contact-div h2 span {
     color: rgb(70, 194, 239);
     font-weight: 600;
-    font-size: medium;
+    font-size: 1rem;
   }
   #contact-div div a {
     color: rgb(255, 255, 255);
-    margin: 5px;
-    padding: 10px;
-    font-size: large;
-    font-weight: 600;
+    font-size: 1rem;
     transition: all 0.4s;
   }
 }
