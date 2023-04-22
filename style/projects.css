@@ -1,6 +1,6 @@
 #projects {
-  padding-top: 75px;
-  /* border: 1px solid white; */
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #projects h2 {
@@ -70,40 +70,28 @@
   width:4%;
 }
 
-/* @media screen and (min-width: 100px) and (max-width: 500px) {
-  #project-div {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-  }
-  #project-div > div {
-    padding: 0px;
-    font-size: x-small;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid grey;
-  }
-  #project-div > div > img {
-    width: 100%;
-  }
-  .project-github-link,
-  .project-deployed-link {
-    color: rgb(70, 194, 239);
-    border: 1px solid rgb(70, 194, 239);
-    padding: 5px;
-    border-radius: 5px;
-    margin-top: 5px;
-  }
+/* For smartphones */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
+   
 }
-@media screen and (min-width: 500px) and (max-width: 710px) {
-  #project-div {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-  }
-} */
 
-@media screen and (min-width: 710px) and (max-width: 1000px) {
-  /* Nav Bar only */
+/* For small tablets */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* CSS styles for small tablets */
+ }
+
+/* For larger tablets and smaller laptops */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS styles for larger tablets and smaller laptops */
+}
+
+/* For desktop screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles for desktop screens */
+}
+
+/* For large screens */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* CSS styles for large screens */
 }

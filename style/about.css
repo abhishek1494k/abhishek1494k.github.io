@@ -1,5 +1,6 @@
 #about {
-  padding-top: 80px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #about-div {
@@ -10,6 +11,20 @@
   flex-direction: row;
   justify-content: space-between;
   /* border: 1px solid rgb(82, 82, 82); */
+}
+
+#about-icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: 1px solid white; */
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#about-div i{
+  font-size: 40px;
+  margin: 10px 20px;
 }
 #about h2 {
   border: 1px solid rgb(82, 82, 82);
@@ -27,15 +42,38 @@
 #user-detail-intro span{
   font-weight: 600;
 }
-@media screen and (min-width: 100px) and (max-width: 500px) {
+
+/* For smartphones */
+@media (max-width: 480px) {
+  /* CSS styles for smartphones */
   #about {
     font-weight: 100;
     font-size: x-small;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 710px) {
+/* For smartphones */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
+     
 }
 
-@media screen and (min-width: 710px) and (max-width: 1000px) {
+/* For small tablets */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* CSS styles for small tablets */
+}
+
+/* For larger tablets and smaller laptops */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS styles for larger tablets and smaller laptops */
+}
+
+/* For desktop screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles for desktop screens */
+}
+
+/* For large screens */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* CSS styles for large screens */
 }

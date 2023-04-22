@@ -8,48 +8,30 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-/* #projects > div:last-child > img {
-  width: 70%;
-} */
+/* For smartphones */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
+    
+}
 
-/* #resume {
-  margin: auto;
-  width: 70%;
-  text-align: center;
-  border: 2px solid grey;
-} */
-
-/* #resume a {
-  color: rgb(255, 255, 255);
-  font-size: large;
-  color: rgb(70, 194, 239);
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid rgb(70, 194, 239);
-} */
-
-/* ------------------------------------------------------- */
-@media screen and (min-width: 100px) and (max-width: 500px) {
-
-  /* #resume {
-    margin: auto;
-    width: 40%;
-    text-align: center;
-    border: 2px solid grey;
-  }
-
-  #resume a {
-    font-size: x-small;
-    padding: 10px;
-    border-radius: 5px;
-  } */
+/* For small tablets */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* CSS styles for small tablets */
 
 }
 
-@media screen and (min-width: 500px) and (max-width: 710px) {
-
+/* For larger tablets and smaller laptops */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS styles for larger tablets and smaller laptops */
 }
 
-@media screen and (min-width: 710px) and (max-width: 1000px) {
-
+/* For desktop screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles for desktop screens */
 }
+
+/* For large screens */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* CSS styles for large screens */
+}
+
