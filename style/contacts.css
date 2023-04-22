@@ -49,6 +49,7 @@
 }
 
 /*------------------------------------------- For smartphones ------------------------------------*/
+
 @media screen and (min-width: 100px) and (max-width: 480px) {
   /* CSS styles for smartphones */
   #contact {
@@ -95,6 +96,7 @@
 }
 
 /*----------------------------------------- For small tablets --------------------------------*/
+
 @media screen and (min-width: 480px) and (max-width: 768px) {
   /* CSS styles for small tablets */
   #contact {
@@ -142,9 +144,11 @@
 }
 
 /*-------------------------- For larger tablets and smaller laptops---------------------------- */
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
   /* CSS styles for larger tablets and smaller laptops */
   #contact {
+    margin: auto;
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -190,9 +194,11 @@
 }
 
 /*-------------------------------- For desktop screens -----------------------------------*/
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   /* CSS styles for desktop screens */
   #contact {
+    margin: auto;
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -238,9 +244,11 @@
 }
 
 /* -------------------------------For large screens -----------------------------------*/
+
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   /* CSS styles for large screens */
   #contact {
+    margin: auto;
     padding-top: 100px;
     padding-bottom: 100px;
   }

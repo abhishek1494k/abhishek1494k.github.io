@@ -47,6 +47,7 @@
 @media (max-width: 480px) {
   /* CSS styles for smartphones */
   #about {
+    margin: auto;
     font-weight: 100;
     font-size: x-small;
   }
