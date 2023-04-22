@@ -54,7 +54,7 @@
   /* CSS styles for smartphones */
   #contact {
     margin: auto;
-    padding-top: 20px;
+    padding-top: 70px;
     padding-bottom: 150px;
   }
 
@@ -79,7 +79,7 @@
     border: 1px solid  rgb(77, 77, 77);
     margin: auto;
     text-align: center;
-    font-size: 0.7rem;
+    font-size: medium;
     padding: 10px 10px;
   }
 
@@ -90,7 +90,7 @@
   }
   #contact-div div a {
     color: rgb(255, 255, 255);
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     transition: all 0.4s;
   }
 }

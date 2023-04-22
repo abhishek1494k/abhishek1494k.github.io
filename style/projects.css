@@ -1,5 +1,5 @@
 #projects {
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 100px;
 }
 
@@ -16,16 +16,14 @@
 }
 
 #project-div {
-  width: 70%;
+  width: 60%;
   height: auto;
   display: flex;
   flex-direction: column;
   margin: auto;
-  /* border: 2px solid grey; */
 }
 
 .project-card {
-  padding: 5px;
   width: 100%;
   height: auto;
   display: flex;
@@ -37,7 +35,7 @@
 }
 
 .project-card-img img {
-  width: 80%;
+  width: 90%;
 }
 
 .project-card-details {
@@ -51,34 +49,107 @@
 .project-tech-stack,
 .project-card-links {
   margin: 5px;
-  /* border: 1px solid blue; */
 }
 
-.project-github-link,
-.project-deployed-link {
-  color: rgb(70, 194, 239);
-  /* border: 1px solid rgb(70, 194, 239); */
-  /* padding: 10px; */
-  /* border-radius: 5px; */
-}
 .project-github-link > i,
 .project-deployed-link > i {
   font-size: x-large;
+  margin: 0px 5px;
+}
+
+.project-github-link > i:hover,
+.project-deployed-link > i:hover {
+  color:rgb(70, 194, 239);
 }
 
 .project-tech-stack > img {
   width:4%;
 }
 
+.project-description{
+  font-weight: 600;
+}
+
 /* For smartphones */
 @media screen and (min-width: 100px) and (max-width: 480px) {
   /* CSS styles for smartphones */
-   
+  #projects {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  
+  #projects h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 5px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #projects h2:hover {
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  #project-div {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .project-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(135, 135, 135);
+  }
+  
+  .project-card-img img {
+    width: 90%;
+  }
+  
+  .project-card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .project-title,
+  .project-description,
+  .project-tech-stack,
+  .project-card-links {
+    margin: 5px;
+  }
+  
+  .project-github-link > i,
+  .project-deployed-link > i {
+    font-size: large;
+    margin: 0px 5px;
+  }
+  
+  .project-github-link > i:hover,
+  .project-deployed-link > i:hover {
+    color:rgb(70, 194, 239);
+  }
+  
+  .project-tech-stack > img {
+    width:5%;
+  }
+  
+  .project-description{
+    display: none;
+  }
 }
 
 /* For small tablets */
 @media screen and (min-width: 480px) and (max-width: 768px) {
   /* CSS styles for small tablets */
+  
  }
 
 /* For larger tablets and smaller laptops */

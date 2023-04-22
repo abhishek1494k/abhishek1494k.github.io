@@ -4,13 +4,11 @@
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  /* border: 2px solid rgb(77, 77, 77); */
-  /* border: 2px solid  rgb(70, 194, 239); */
 }
 
 .react-activity-calendar h2{
   border: 1px solid rgb(82, 82, 82);;
-  padding: 10px;
+  padding: 5px;
   width: 42%;
   margin: auto;
   margin-top: 10px;
@@ -25,13 +23,17 @@
 }
 
 #git-stat > div > img {
-  width: 45%;
+  width: 65%;
   background-color: black;
 }
 
 /* For smartphones */
 @media screen and (min-width: 100px) and (max-width: 480px) {
   /* CSS styles for smartphones */
+  #git-stat > div > img {
+    width: 85%;
+    background-color: black;
+  }
 }
 
 /* For small tablets */

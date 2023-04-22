@@ -148,9 +148,9 @@
   #home {
     /* padding-top: 10px; */
     /* border: 1px solid white; */
-    margin-top: 100px;
+    margin-top: 140px;
     margin-bottom: 100px;
-    padding-top: 10px;
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,7 +177,7 @@
   }
   
   #home_1 h1 {
-    font-size: x-large;
+    font-size: large;
   }
   
   #home-div img {
