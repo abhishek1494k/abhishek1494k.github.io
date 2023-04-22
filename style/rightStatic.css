@@ -9,16 +9,19 @@
     border: 1px solid rgb(0, 0, 0);
     margin-top: 100px;
   }
+
   #right_static h5,
   #right_static span {
     writing-mode: vertical-rl;
     color: rgb(255, 255, 255);
   }
+
   #right_static span {
     letter-spacing: 2px;
     font-size: 16px;
     transition-duration: 0.5s;
   }
+  
   #right_static span:hover {
     color: rgb(70, 194, 239);
     padding: 5px;
@@ -28,7 +31,9 @@
 /* For smartphones */
 @media screen and (min-width: 100px) and (max-width: 480px) {
   /* CSS styles for smartphones */
-   
+  #right_static{
+    display: none;
+  }
 }
 
 /* For small tablets */
