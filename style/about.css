@@ -54,7 +54,68 @@
 
 @media screen and (min-width: 100px) and (max-width: 480px) {
   /* CSS styles for smartphones */
- 
+  #about {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  #about h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 5px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+
+  #about h4{
+    font-size: small;
+  }
+  #about-div {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(82, 82, 82);
+    align-items: center;
+    text-align: center;
+  }
+  
+  #about-div > div > div {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #user-detail {
+    /* background-color: aqua; */
+    padding: 5px;
+    font-size: medium;
+  }
+  
+  #about-icon {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+  #about-div i {
+    font-size: 10px;
+    margin: 5px 10px;
+  }
+  
+  #about p{
+    font-weight: 600;
+    font-size: xx-small;
+  }
+
+  #about img{
+    width:45%;
+  }
 }
 
 /* For small tablets */
