@@ -62,10 +62,10 @@
 
 :root {
   --color-calendar-graph-day-bg: #dddbdb;
-  --color-calendar-graph-day-L1-bg: #39dd34;
-  --color-calendar-graph-day-L2-bg: #45a045;
-  --color-calendar-graph-day-L3-bg: #047526;
-  --color-calendar-graph-day-L4-bg: #0a4208;
+  --color-calendar-graph-day-L1-bg:  rgb(122, 218, 252);
+  --color-calendar-graph-day-L2-bg: rgb(46, 170, 215);
+  --color-calendar-graph-day-L3-bg: rgb(12, 131, 174);
+  --color-calendar-graph-day-L4-bg: rgb(1, 46, 63);
 }
 
 rect.ContributionCalendar-day[data-level='0'] {
