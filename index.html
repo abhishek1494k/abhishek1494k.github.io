@@ -407,10 +407,11 @@
 <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 <script src="/path/to/typeit/source"></script>
 <script>
-  new TypeIt("#myElement", {
+  function fun1(){
+    new TypeIt("#myElement", {
       strings: "Hi, Everyone",
   } ).go();
-  
+  }
   function fun(){
     new TypeIt("#user-detail-name", {
       strings: "",
@@ -418,6 +419,6 @@
   }
 
   setTimeout(() => {
-    fun()
-  }, 2200);
+    fun1()
+  }, 1000);
 </script>
