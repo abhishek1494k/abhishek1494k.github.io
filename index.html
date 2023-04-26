@@ -87,7 +87,7 @@
     <section id="home">
       <div id="home-div">
         <div id="home_1">
-          <h1 style="color: rgb(70, 194, 239);" id="myElement" ></h1>
+          <h1 style="color: rgb(70, 194, 239);" id="myElement"></h1>
           <br>
           <h1 id="user-detail-name"> I'm Abhishek </h1>
           <h1>Full Stack Web Developer</h1>
@@ -407,18 +407,8 @@
 <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 <script src="/path/to/typeit/source"></script>
 <script>
-  function fun1(){
-    new TypeIt("#myElement", {
-      strings: "Hi, Everyone",
-  } ).go();
-  }
-  function fun(){
-    new TypeIt("#user-detail-name", {
-      strings: "",
+  new TypeIt("#myElement", {
+    strings: "Hi, Everyone !! ",
   }).go();
-  }
 
-  setTimeout(() => {
-    fun1()
-  }, 1000);
 </script>
