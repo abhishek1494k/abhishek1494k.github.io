@@ -162,9 +162,9 @@ rect.ContributionCalendar-day[data-level='4'] {
 .contrib-number {
     font-weight: 600;
     line-height: 1.3em;
-    font-size: 24px;
+    font-size: 14px;
     display: block;
-    color: #ffffff;
+    color: #fafafa;
 }
 
 .calendar img.spinner {

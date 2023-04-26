@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="./style/about.css">
   <link rel="stylesheet" href="./style/home.css">
   <link rel="stylesheet" href="./style/cursor.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <!------------------ Font ------------------>
   <script src="https://kit.fontawesome.com/d68d319f71.js" crossorigin="anonymous"></script>
@@ -79,7 +81,8 @@
     <h5> <span> abhi.jaiswal1494@gmail.com</span></h5>
   </div>
 
-  <div id="container">
+  <div id="container" data-aos="fade-up"
+  data-aos-duration="1000">
     <!-------------------- HOME ---------------------->
     <section id="home">
       <div id="home-div">
@@ -98,11 +101,12 @@
     </section>
 
     <!-------------------- ABOUT ---------------------->
-    <section id="about" class="about section">
+    <section id="about">
       <h2 style="text-align: center;"><span
           style="color: rgb(70, 194, 239); font-weight: 600; font-size: medium;">02.</span>About Me</h2>
       <br>
-      <div id="about-div">
+      <div id="about-div" class="about section" data-aos="fade-up"
+      data-aos-duration="1000">
         <img src="https://kunalmehra075.github.io/Images/codergif.gif" alt="">
         <div id="user-detail">
           <h4 id="user-detail-intro">
@@ -139,7 +143,8 @@
       <h2 style="text-align: center;"><span
           style="color: rgb(70, 194, 239); font-weight: 600; font-size: medium;">03.</span>Tech Stack</h2>
       <br>
-      <div id="skills-div">
+      <div id="skills-div" class="about section" data-aos="fade-up"
+      data-aos-duration="1000">
         <div class="skills-card">
           <img class="skills-card-img" src="./image/html.png" alt="" />
           <h5 class="skills-card-name">HTML</h5>
@@ -206,7 +211,8 @@
       <div id="project-div">
         <br>
         <!-- 1 -->
-        <div class="project-card">
+        <div class="project-card" data-aos="fade-up"
+        data-aos-duration="1000">
           <!-- <title class="project-title">HomeDecor</title> -->
           <div class="project-card-img"><img
               src="https://user-images.githubusercontent.com/109690823/229313097-98ac03fb-69b0-4833-849c-48c4a1b9d38d.png"
@@ -234,7 +240,8 @@
         </div>
         <br>
         <!-- 2 -->
-        <div class="project-card">
+        <div class="project-card" data-aos="fade-up"
+        data-aos-duration="1000">
           <!-- <title class="project-title">QR Bot</title> -->
           <div class="project-card-img"><img src="./image/QRBOT.png" alt=""></div>
           <div class="project-card-details">
@@ -258,7 +265,9 @@
           </div>
         </div>
         <br>
-        <div class="project-card">
+        <!-- 3 -->
+        <div class="project-card" data-aos="fade-up"
+        data-aos-duration="1000">
           <!-- <title class="project-title">HomeDecor</title> -->
           <div class="project-card-img"><img src="./image/homedecor.png" alt=""></div>
           <div class="project-card-details">
@@ -284,7 +293,8 @@
         </div>
         <br>
         <!-- 4 -->
-        <div class="project-card">
+        <div class="project-card" data-aos="fade-up"
+        data-aos-duration="1000">
           <!-- <title class="project-title">MyTv</title> -->
           <div class="project-card-img"><img src="./image/mytv.png" alt=""></div>
           <div class="project-card-details">
@@ -334,26 +344,30 @@
       <h2><span style="color: rgb(70, 194, 239); font-weight: 600; font-size: larger;">G</span>itHub-Activity-Calendar
       </h2>
       <br>
-      <div class="calendar">
+      <div class="calendar" data-aos="fade-up"
+      data-aos-duration="1000">
         <!-- Loading the data just for you. -->
       </div>
       <br>
       <h2><span style="color: rgb(70, 194, 239); font-weight: 600; font-size: larger;">G</span>ithub Stats</h2>
       <br>
       <div id="git-stat">
-        <div>
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
           <img id="github-streak-stats"
             src="https://github-readme-streak-stats.herokuapp.com?user=abhishek1494k&theme=react&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
             alt="streakstat" />
         </div>
         <br>
-        <div>
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
           <img id="github-stats-card"
             src="https://github-readme-stats.vercel.app/api?username=abhishek1494k&count_private=true&theme=react"
             alt="stat-card" />
         </div>
         <br>
-        <div>
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
           <img id="github-top-langs"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhishek1494k&theme=react&layout=compact"
             alt="top_languages" />
@@ -365,7 +379,8 @@
       <div id="contact-div">
         <h2><span>05.</span>Contacts</h2>
         <br>
-        <div>
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
           <a id="contact-github" href="https://github.com/abhishek1494k" target="_blank"><i
               class="fa-brands fa-github"></i> Github</a>
           <a id="contact-linkedin" href="https://www.linkedin.com/in/abhishek1994k/" target="_blank"><i
@@ -381,7 +396,6 @@
   </div>
   <div class="cursor"></div>
 </body>
-
 </html>
 <script>
   
@@ -396,3 +410,6 @@
 <script src="./script/git_calender.js"></script>
 <script src="./script/cursor.js"></script>
 <script src="./script/navBar.js"></script>
+<script>
+  AOS.init();
+</script>
