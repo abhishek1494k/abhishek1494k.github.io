@@ -29,6 +29,7 @@
   padding: 15px;
   border: 1px solid rgb(82, 82, 82);
   font-size: medium;
+  line-height: 20px;
 }
 
 #about-icon {
@@ -36,7 +37,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 #about-div i {
@@ -181,19 +182,10 @@
   }
 }
 
-/* For smartphones */
-@media screen and (min-width: 100px) and (max-width: 480px) {
-  /* CSS styles for smartphones */
-}
-
-/* For small tablets */
-@media screen and (min-width: 480px) and (max-width: 768px) {
-  /* CSS styles for small tablets */
-}
-
 /* For larger tablets and smaller laptops */
 @media screen and (min-width: 768px) and (max-width: 992px) {
   /* CSS styles for larger tablets and smaller laptops */
+  
 }
 
 /* For desktop screens */
