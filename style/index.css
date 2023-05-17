@@ -11,3 +11,13 @@
 #container{
   margin: auto;
 }
+
+footer{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+  font-size: smaller;
+  letter-spacing: 1.5px;
+  font-family: 'Poppins';
+}
