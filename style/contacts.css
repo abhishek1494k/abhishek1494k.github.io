@@ -76,11 +76,11 @@
   }
 
   #contact-div h2 {
-    border: 1px solid  rgb(77, 77, 77);
+    border: 1px solid rgb(77, 77, 77);
     margin: auto;
     text-align: center;
-    font-size: medium;
-    padding: 10px 10px;
+    font-size: small;
+    padding: 10px 20px;
   }
 
   #contact-div h2 span {

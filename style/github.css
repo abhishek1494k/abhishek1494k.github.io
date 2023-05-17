@@ -15,6 +15,7 @@
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: small;
 }
 
 #git-stat > div {
@@ -254,3 +255,18 @@ text.ContributionCalendar-label {
     fill: #ccc;
     font-size: 11px;
 }
+
+
+
+
+@media screen and (min-width: 100px) and (max-width: 480px) {
+    .contrib-number {
+        font-weight: 600;
+        line-height: 1.3em;
+        font-size: 10px;
+        display: block;
+        color: #fafafa;
+    }
+}
+
+

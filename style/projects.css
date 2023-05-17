@@ -84,6 +84,7 @@
     width: 42%;
     margin: auto;
     text-align: center;
+    font-size: small;
   }
   
   #projects h2:hover {
